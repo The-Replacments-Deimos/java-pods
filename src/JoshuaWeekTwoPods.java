@@ -41,13 +41,13 @@ public class JoshuaWeekTwoPods {
 //
 //        Sum = 500500
 
-//        int sum = 0;
-//        for(int i = 1; i <= 1000; i++){
-//
-//            sum += i;
-//            int sumTotal = sum + i;
-//            System.out.printf("%dth iteration: sum = %d%n", i, sum);
-//        }
+        int sum = 0;
+        for(int i = 1; i <= 1000; i++){
+
+            sum += i;
+            int sumTotal = sum + i;
+            System.out.printf("%dth iteration: sum = %d%n", i, sum);
+        }
 
 
     }
