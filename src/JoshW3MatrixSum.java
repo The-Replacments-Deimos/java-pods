@@ -22,7 +22,6 @@ public class JoshW3MatrixSum{
         for(int i = 0; i < a.length; i++){
             double sum = 0;
             for(int j = 0; j < a[i].length; j++){
-//                System.out.println(a[i][j]);
                 sum += a[i][j];
             }
             System.out.println(sum);
