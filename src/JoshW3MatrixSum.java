@@ -1,7 +1,7 @@
 import java.io.*;
 public class JoshW3MatrixSum{
 
-    public static void main(String arg[])throws Exception{
+    public static void main(String arg[]){
         int rows=10;
         int cols=10;
 
@@ -17,15 +17,17 @@ public class JoshW3MatrixSum{
                 {13,35,32,22,31,23,87,23,55,33},
                 {22,59,13,22,31,23,49,23,55,33}
         };
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int sum = 0;
-        System.out.println("Enter the column:");
-
-        int col = Integer.parseInt(br.readLine());
 
 
-        System.out.println("Sum of the given column is:");
-        // Find the column sum
+        for(int i = 0; i < a.length; i++){
+            double sum = 0;
+            for(int j = 0; j < a[i].length; j++){
+//                System.out.println(a[i][j]);
+                sum += a[i][j];
+            }
+            System.out.println(sum);
+        }
+
 
 
 
