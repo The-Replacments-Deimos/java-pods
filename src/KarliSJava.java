@@ -1,5 +1,6 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class KarliSJava {
 
@@ -60,5 +61,14 @@ public class KarliSJava {
         System.out.println(pangram);
 }
 
+//The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that returns the total number of legs of all the animals.
+
+    public class Challenge {
+        public int animals(int chickens, int cows, int pigs) {
+            return chickens * 2 + (cows + pigs) * 4;
+            System.out.println(cows);
+
+        }
+    }
 
 }
