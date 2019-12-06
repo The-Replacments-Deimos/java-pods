@@ -1,5 +1,6 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class KarliSJava {
 
@@ -60,5 +61,14 @@ public class KarliSJava {
         System.out.println(pangram);
 }
 
+//Create a method that takes an array of integers and returns a new array, sorted in ascending order (smallest to biggest).
+
+    public class Challenge {
+        public int animals(int chickens, int cows, int pigs) {
+            return chickens * 2 + (cows + pigs) * 4;
+            System.out.println(cows);
+
+        }
+    }
 
 }
